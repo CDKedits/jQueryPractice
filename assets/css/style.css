@@ -1,0 +1,38 @@
+.nav-wrapper {
+  background-color: #febeb7;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+.card {
+  margin-top: 100px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-text {
+  line-height: 120%;
+  text-align: left;
+}
+
+.row {
+  margin: 0!important;
+}
+
+.redImg, .ts1989Img, .loverImg {
+  height: 100%;
+  width: 100%;
+}
+
+div.albumDiv:hover {
+  height: 125%;
+  width: 125%;
+}
+
+.btn-small {
+  margin: auto;
+}

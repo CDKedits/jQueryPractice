@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Taylor Swift Album Collector</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <a class="brand-logo center">Taylor Swift Album Collector</a>
+    </div>
+  </nav>
+
+  <div class="row">
+    <div class="col m4"></div>
+    <div class="col s12 m4">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">Welcome to the album collector game!</span>
+          <p class="card-text">Each album is worth a random, unknown amount of points. The goal of the game is to
+            accumulate enough points
+            to match the number displayed below:</p>
+        </div>
+      </div>
+    </div>
+    <div class="col m4"></div>
+  </div>
+
+  <div class="row">
+    <div class="col m4"></div>
+    <div class="col s12 m4">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <div class="goalNum"></div>
+          <div>
+            <span class="card-title currNum">Current number: 0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col m4"></div>
+  </div>
+
+  <div class="row gameOver">
+    <div class="col m4"></div>
+    <div class="col s12 m4">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <div>
+            <span class="card-title message"></span>
+            <a class="waves-effect waves-light btn-small restartBtn">Restart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col m4"></div>
+  </div>
+
+  <div class="row">
+    <div class="col m4"></div>
+    <div class="col s12 m4">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <div><span class="card-title wins">Wins: 0</span></div>
+          <div><span class="card-title losses">Losses: 0</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="col m4"></div>
+  </div>
+
+  <div class="row">
+    <div class="col s2"></div>
+    <div class="col s2 redAlbum albumDiv">
+      <img class="redImg" src="./assets/images/red.jpg" alt="Red">
+      <a class="waves-effect waves-light btn-small gameBtn redBtn">Red</a>
+    </div>
+    <div class="col s1"></div>
+    <div class="col s2 ts1989 albumDiv">
+      <img class="ts1989Img" src="./assets/images/1989.jpg" alt="1989">
+      <a class="waves-effect waves-light btn-small gameBtn ts1989Btn">1989</a>
+    </div>
+    <div class="col s1"></div>
+    <div class="col s2 lover albumDiv">
+      <img class="loverImg" src="./assets/images/lover.jpg" alt="Lover">
+      <a class="waves-effect waves-light btn-small gameBtn loverBtn">Lover</a>
+    </div>
+    <div class="col s2"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+  <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
